@@ -8,7 +8,7 @@ La programmation s’eﬀectuera en OCaml. Le candidat peut, s’il en éprouve 
 
 # Rappels sur le langage OCAML
 
-Une liste est construite à partir de la liste vide [] et de la construction x ::  qui renvoie une nouvelle liste dont la tête est l’élément x et dont la queue est la liste . L’appel de List.rev  renvoie une nouvelle liste, formée des éléments de la liste  en ordre inverse.
+Une liste est construite à partir de la liste vide [] et de la construction x ::  qui renvoie une nouvelle liste dont la tête est l’élément x et dont la queue est la liste . L’appel de List.rev  renvoie une nouvelle liste, formée des éléments de la liste `l` en ordre inverse.
 
 On peut créer des tableaux avec les fonctions Array.make, Array.init et Array.of_list.
 * L’appel de Array.make n x crée un tableau de taille n dont toutes les cases contiennent la valeur x.
@@ -20,6 +20,6 @@ Les cases d’un tableau sont numérotées à partir de 0. La fonction Array.len
 
 On mentionne enﬁn le type polymorphe ’a option déﬁni par :
 
-type ’a option = None | Some of ’a
+$type ’a option = None | Some of ’a$
 
 Un élément de la forme Some x correspond à la présence d’une valeur x de type ’a, et un élément de la forme None correspond à une absence de valeur
