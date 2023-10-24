@@ -63,6 +63,30 @@ La ﬁgure 5 illustre le résultat de l’ajout d’une arête entre les sommets
 **Question 2.8.** Écrire une fonction `retourner_chaine : buf -> int list -> unit` qui implémente le retournement de chaîne présenté ci-dessus, sans eﬀectuer le changement de parent de la nouvelle racine. On supposera que la liste passée en argument est une chaîne de représentants, de premier élément la
 racine d’un arbre
 
+### Arêtes entre blocs distincts d'une même composante connexe
+
+L’ajout d’une arête entre deux blocs d’une même composante connexe va entraîner la fusion de ces deux blocs ainsi que de tous les blocs compris entre les deux. Par exemple, comme illustré sur la ﬁgure 6, l’ajout d’une arête entre les sommets 1 et 15 à partir du graphe de la ﬁgure 5 conduit à la fusion des blocs de représentants 1, 3, 4 et 13.
+
+**Question 2.9.** Représenter une forêt que l’on peut obtenir après avoir ajouté une arête entre les sommets 7 et 12 dans la forêt représentée en ﬁgure 5.
+
+**Question 2.10.** Écrire une fonction `union : buf -> int -> int -> unit` qui eﬀectue l’union des blocs dont les représentants sont passés en argument. Concrètement, le parent du représentant du bloc de plus petit rang deviendra le représentant du bloc de plus grand rang. En cas d’égalité des rangs, le choix se fera de façon arbitraire, et le rang du bloc résultant augmentera de 1. Le rang d’un sommet qui n’est pas un représentant ne joue aucun rôle. On ne se souciera pas, pour le moment, de la valeur du parent du bloc obtenu.
+
+**Question 2.11.** Écrire une fonction `fusion_chaine : buf -> int list -> unit` qui effectue la fusion de tous les blocs dont les représentants sont dans la chaîne de représentants passée en argument. On portera une attention particulière, une fois la fusion de la chaîne eﬀectuée, à la valeur du parent du représentant du bloc obtenu.
+
+### Fonction d'ajout
+
+**Question 2.12.** Écrire une fonction `ajout : buf -> int -> int -> unit` qui implémente l’ajout d’un arête entre les deux sommets _u_ et _v_ passés en argument. En notant leurs représentants _r<sub>u</sub>_ et _r<sub>v</sub>_ , si ceux-ci sont diﬀérents, on distingue (à partir des chaînes de ces représentants vers leurs racines respectives) les cas où ceux-ci appartiennent à des composantes connexes distinctes ou à la même composante connexe. Dans le premier cas, on retourne la chaîne d’un des représentants jusqu’à la racine puis on lui attribue comme parent l’autre représentant. Dans le second, on fusionne les blocs des chaînes reliant _r<sub>u</sub>_ et _r<sub>v</sub>_ à leur plus proche ancêtre commun qui est l’élément commun le plus profond de leurs chaînes respectives vers leur racine.
+
+## Liste des ponts
+
+On désire modiﬁer la structure _buf_ aﬁn de pouvoir obtenir, en plus des blocs, la liste des ponts du graphe modélisé.
+
+**Question 2.13.** Décrire une telle modiﬁcation, en indiquant précisément les modiﬁcations à apporter à la structure buf et au code des diverses fonctions pour la manipuler, ainsi que l’implémentation d’une nouvelle fonction
+
+```ponts : buf -> (int * int) list.```
+
+Idéalement, les modiﬁcations des fonctions précédentes se traduiront par un surcoût de complexité constante et la fonction ponts sera de complexité linéaire en le nombre de sommets du graphe.
+
 # Rappels sur le langage OCAML
 
 Une liste est construite à partir de la liste vide [] et de la construction x :: _l_ qui renvoie une nouvelle liste dont la tête est l’élément x et dont la queue est la liste _l_. L’appel de List.rev _l_ renvoie une nouvelle liste, formée des éléments de la liste _l_ en ordre inverse.
