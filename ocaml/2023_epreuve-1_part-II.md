@@ -28,6 +28,26 @@ Ainsi, tous les blocs sont représentés à la manière d’une structure de typ
   rang = [|0; 0; 0; 1; 2; 0; 0; 0; 0; 0; 0; 1; 0; 1; 0; 0|] }
 ```
 
+**Question 2.1.** Indiquer les blocs et les ponts du graphe représenté ﬁgure 4.
+
+**Question 2.2.** Représenter graphiquement une structure _buf_ correspondant au graphe de la ﬁgure 4.
+
+**Question 2.3.** Écrire une fonction `init : int -> buf` qui, étant donné un entier n, renvoie une structure buf décrivant un graphe de n sommets sans aucune arête : chaque sommet donne lieu à un bloc de rang 0 dont il est le représentant.
+
+**Question 2.4.** Écrire une fonction `find : buf -> int -> int` qui renvoie le représentant dans la structure _buf_ du sommet passé en argument. On mettra en œuvre la _compression de chemin_ : on modiﬁe les parents de tous les sommets croisés sur le chemin entre le sommet de départ et son représentant, chaque sommet ayant pour nouveau parent leur représentant commun.
+
+**Question 2.5.** Écrire une fonction `blocs : buf -> int list list` qui renvoie la liste des blocs correspondant à la structure passée en argument. L’ordre des blocs ainsi que l’ordre des sommets à l’intérieur d’un bloc n’est pas contraint. Ainsi, avec le graphe de la ﬁgure 1 (représenté par la forêt de la ﬁgure 3), on peut avoir :
+
+```[[15; 13; 14]; [12; 11; 10]; [7]; [9; 8; 6; 5; 4]; [3; 2; 0]; [1]]```
+
+On utilisera systématiquement la fonction `find` pour déterminer le représentant d’un sommet.
+
+## Ajout d'arêtes
+
+Nous allons maintenant étudier l’eﬀet de l’ajout d’une arête sur notre structure. Plusieurs cas sont possibles, suivant que les extrémités de l’arête ajoutée appartiennent à un même bloc, à des blocs distincts d’une même composante connexe, ou à des blocs de composantes connexes distinctes. Notons que si l’on ajoute une arête entre les sommets d’un même bloc, aucune modiﬁcation n’est nécessaire. Pour traiter les deux autres cas, nous allons tout d’abord écrire quelques fonctions utilitaires avant d’implémenter la fonction d’ajout d’arête proprement dite.
+
+Dans la suite, on appelle chaîne de représentants une suite ﬁnie non vide (s_0, ..., sp) de représentants telle que pour tout _i ∈ {0, ..., p − 1}_, le sommet si est le représentant du parent de _s<sub>i+1</sub>_. En particulier, les représentants apparaissent de la gauche vers la droite par profondeur croissante. De façon naturelle, une telle chaîne sera représentée par une liste.
+
 # Rappels sur le langage OCAML
 
 Une liste est construite à partir de la liste vide [] et de la construction x :: _l_ qui renvoie une nouvelle liste dont la tête est l’élément x et dont la queue est la liste _l_. L’appel de List.rev _l_ renvoie une nouvelle liste, formée des éléments de la liste _l_ en ordre inverse.
