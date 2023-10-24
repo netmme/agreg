@@ -20,6 +20,6 @@ Les cases d’un tableau sont numérotées à partir de 0. La fonction Array.len
 
 On mentionne enﬁn le type polymorphe ’a option déﬁni par :
 
-$type ’a option = None | Some of ’a$
+`type ’a option = None | Some of ’a`
 
 Un élément de la forme Some x correspond à la présence d’une valeur x de type ’a, et un élément de la forme None correspond à une absence de valeur
