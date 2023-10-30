@@ -1,3 +1,5 @@
+*Ceci est une copie partielle de l'épreuve 1 de la session 2023 de l'agrégation d'informatique. Je ne possède rien du texte qui va suivre.*
+
 # Ponts et blocs dans un graphe non orienté
 
 ![Figure 1](figure1.png)
