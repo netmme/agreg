@@ -1,0 +1,4 @@
+(executable
+ (public_name P2023_epreuve_1_partII)
+ (name main)
+ (libraries P2023_epreuve_1_partII))
