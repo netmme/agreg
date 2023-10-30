@@ -1,11 +1,8 @@
 # Ponts et blocs dans un graphe non orienté
 
-<picture>
- <source media="(prefers-color-scheme: dark)" srcset="YOUR-DARKMODE-IMAGE">
- <source media="(prefers-color-scheme: light)" srcset="YOUR-LIGHTMODE-IMAGE">
- <img alt="YOUR-ALT-TEXT" src="YOUR-DEFAULT-IMAGE">
-</picture>
+![Figure 1](figure1.png)
 
+![Figure 2](figure2.png)
 
 Dans un graphe non orienté, un pont est une arête dont la suppression fait croître le nombre de composantes connexes. Lorsque l’on retire tous les ponts d’un graphe, les composantes connexes restantes sont appelées blocs. Par exemple, le graphe représenté ﬁgure 1 possède 4 ponts, reliant les paires de sommets (1, 3), (3, 4), (6, 7) et (11, 15) et 6 blocs, comme illustré ﬁgure 2.
 
@@ -28,12 +25,9 @@ Enﬁn, le tableau rang indique, pour chaque représentant de bloc, une mesure d
 
 Ainsi, tous les blocs sont représentés à la manière d’une structure de type _union-ﬁnd_, à la diﬀérence que les diﬀérents blocs forment une forêt. On donne en ﬁgure 3 une représentation du graphe exemple de la ﬁgure 1 comme un élément de type _buf_, ainsi que son illustration graphique.
 
-```
-{ parent = [|3; 3; 3; 3; 3; 4; 4; 6; 4; 8; 11; 11; 11; 11; 13; 13|];
-  repr = [|false; true; false; true; true; false; false; true; false;
-           false; false; true; false; true; false; false|];
-  rang = [|0; 0; 0; 1; 2; 0; 0; 0; 0; 0; 0; 1; 0; 1; 0; 0|] }
-```
+![Figure 3](figure3.png)
+
+![Figure 4](figure4.png)
 
 **Question 2.1.** Indiquer les blocs et les ponts du graphe représenté ﬁgure 4.
 
@@ -65,6 +59,8 @@ Lorsque l’on ajoute une arête entre deux sommets appartenant à des composant
 
 La ﬁgure 5 illustre le résultat de l’ajout d’une arête entre les sommets 5 et 14.
 
+![Figure 5](figure5.png)
+
 **Question 2.7.** Représenter la forêt obtenue après avoir ajouté dans la forêt représentée en ﬁgure 3 une arête entre les sommets 7 et 12. On supposera que c’est le chemin issu du sommet 7 qui est retourné.
 
 **Question 2.8.** Écrire une fonction `retourner_chaine : buf -> int list -> unit` qui implémente le retournement de chaîne présenté ci-dessus, sans eﬀectuer le changement de parent de la nouvelle racine. On supposera que la liste passée en argument est une chaîne de représentants, de premier élément la
@@ -77,6 +73,8 @@ L’ajout d’une arête entre deux blocs d’une même composante connexe va en
 **Question 2.9.** Représenter une forêt que l’on peut obtenir après avoir ajouté une arête entre les sommets 7 et 12 dans la forêt représentée en ﬁgure 5.
 
 **Question 2.10.** Écrire une fonction `union : buf -> int -> int -> unit` qui eﬀectue l’union des blocs dont les représentants sont passés en argument. Concrètement, le parent du représentant du bloc de plus petit rang deviendra le représentant du bloc de plus grand rang. En cas d’égalité des rangs, le choix se fera de façon arbitraire, et le rang du bloc résultant augmentera de 1. Le rang d’un sommet qui n’est pas un représentant ne joue aucun rôle. On ne se souciera pas, pour le moment, de la valeur du parent du bloc obtenu.
+
+![Figure 6](figure6.png)
 
 **Question 2.11.** Écrire une fonction `fusion_chaine : buf -> int list -> unit` qui effectue la fusion de tous les blocs dont les représentants sont dans la chaîne de représentants passée en argument. On portera une attention particulière, une fois la fusion de la chaîne eﬀectuée, à la valeur du parent du représentant du bloc obtenu.
 
