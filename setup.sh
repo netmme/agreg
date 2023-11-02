@@ -5,7 +5,7 @@
 sudo dnf update -y
 
 # Python
-sudo dnf remove thonny
+sudo dnf remove thonny -y
 pip install jupyterlab
 sudo rpm -e python3-sympy
 
