@@ -1,5 +1,4 @@
-## Script bash pour transformer une VM fedora lab Python-Class en VM compatible avec Nonos. Je suis parti du lab python-classroom car il est leger
-## et la partie python est quasiment deja faite
+## Script bash pour transformer une VM Fedora lab Python-Class en VM similaire à NonOS.
 ## Fedora Lab Python-Class : https://labs.fedoraproject.org/en/python-classroom/
 ## Nonos : https://agreg-info.gitlab.io/docs/
 
