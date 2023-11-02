@@ -31,4 +31,4 @@ sudo flatpak install flathub com.vscodium.codium
 
 # Utilitaire
 sudo dnf install keepassxc -y
-sudo dnf swap @budgie-desktop @xfce-desktop-environment
+sudo dnf swap @budgie-desktop @xfce-desktop-environment -y
