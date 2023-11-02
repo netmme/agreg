@@ -23,6 +23,8 @@ eval $(opam env)
 # Autre
 sudo dnf sqlite -y
 sudo dnf php -y
+wget -P ~/Téléchargements https://github.com/logisim-evolution/logisim-evolution/releases/download/v3.8.0/logisim-evolution-3.8.0-1.x86_64.rpm
+sudo rpm --install ~/Téléchargements/logisim-evolution-3.8.0-1.x86_64.rpm
 
 # IDE
 sudo flatpak remote-add --if-not-exists flathub https://dl.glathub.org/repo/flathub.flatpakrepo
