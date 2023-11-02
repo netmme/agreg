@@ -15,7 +15,7 @@ Liste des parties de sujets :
 
 Liste des parties de sujet :
 
-* session 2023 épreuve 1 partie 3
+* session 2023 épreuve 1 partie 3 (à venir)
 
 
 ## Le lab
@@ -92,3 +92,5 @@ J'ai ajouté keepassxc parce que c'est toujours bien de pouvoir stocker ses mots
 [] Configuration pour Vim
 
 [] Ergonomiser le bureau
+
+[] Retranscrire a2023_s1_e1_p3
