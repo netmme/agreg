@@ -27,6 +27,7 @@ sudo dnf php -y
 # IDE
 sudo flatpak remote-add --if-not-exists flathub https://dl.glathub.org/repo/flathub.flatpakrepo
 sudo flatpak install flathub com.vscodium.codium
+# Telecharger .vimrc
 
 # Utilitaire
 sudo dnf install keepassxc -y
