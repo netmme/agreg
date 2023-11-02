@@ -7,9 +7,15 @@ Les sujets sont découpés en plusieurs parties, elles-mêmes découpées en plu
 
 ### OCaml
 
-Liste des parties de sujets relatives à OCaml :
+Liste des parties de sujets :
 
 * session 2023 épreuve 1 partie 2
+
+### Logique et architecture des ordinateurs
+
+Liste des parties de sujet :
+
+* session 2023 épreuve 1 partie 3
 
 
 ## Le lab
