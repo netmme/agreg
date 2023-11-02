@@ -34,7 +34,7 @@ pour gagner de la place.
 #### Python
 
 Y'a toutes les bibliothèques qui sont sur NonOS SAUF la librairie pyzo
-(parce qu'elle est que utile pour un IDE et on reviendra sur la question des IDE plus tard).
+(parce qu'elle est que utile pour un EDI et on reviendra sur la question des EDI plus tard).
 
 La bibliothèque simpy est enlevée.
 
@@ -49,7 +49,7 @@ Sont installés SQLite, PHP
 #### EDI
 
 Vim, Emacs, JupyterLab sont présents, ainsi que Codium. Pyzo et PyCharm ne sont pas installés car 1) ils font clairement doublons avec les deux
-précédents IDE et 2) ils associent 1 langage à 1'EDI, mais n'apporte aucun bénéfice (là où JupyterLab peut interpréter le code à la volée).
+précédents EDI et 2) ils associent 1 langage à 1'EDI, mais n'apporte aucun bénéfice (là où JupyterLab peut interpréter le code à la volée).
 Enfin, Mu editor est installé. C'est un EDI didactique qui permet facilement d'initier à la programation python.
 
 #### Utilitaire
