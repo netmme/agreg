@@ -1,5 +1,17 @@
 # GOGO-AGREG
 
+
+## Les sujets
+
+Les sujets sont découpés en plusieurs parties, elles-mêmes découpées en plusieurs questions. Ce n'est pas pratique pour réviser comme j'en ai envie alors j'ai décidé de réorganiser les différents sujets. Ainsi, dans ce repo, les sujets sont redécoupés en fonction des compétences nécessaires pour y répondre.
+
+### OCaml
+
+Liste des parties de sujets relatives à OCaml :
+
+* session 2023 épreuve 1 partie 2
+
+
 ## Le lab
 
 Le site de l'agrégation fourni une VM (virtual box quelle horreur), mais pour différentes raisons je ne souhaite pas l'utiliser.
