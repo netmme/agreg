@@ -13,7 +13,7 @@ sudo rpm -e python3-sympy
 sudo dnf install utop -y
 sudo dnf install ocaml -y
 sudo dnf install opam -y
-opam init
+opam init -y
 eval $(opam env --switch=default)
 opam install dune -y
 opam install ocaml-lsp-server ocamlformat -y
