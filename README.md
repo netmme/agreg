@@ -60,6 +60,9 @@ J'ai ajouté keepassxc parce que c'est toujours bien de pouvoir stocker ses mots
 ## A faire
 
 [] Enlever Gnome totalement
+
 [] Configuration pour Codium
+
 [] Configuration pour Vim
+
 [] Ergonomiser le bureau
