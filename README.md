@@ -3,19 +3,61 @@
 
 ## Les sujets
 
-Les sujets sont découpés en plusieurs parties, elles-mêmes découpées en plusieurs questions. Ce n'est pas pratique pour réviser comme j'en ai envie alors j'ai décidé de réorganiser les différents sujets. Ainsi, dans ce repo, les sujets sont redécoupés en fonction des compétences nécessaires pour y répondre.
+Les sujets sont découpés en plusieurs parties, elles-mêmes découpées en plusieurs questions. Ce n'est pas pratique pour réviser comme j'en ai envie, alors voici un redécoupage des sujets en fonction des compétences nécessaires. Certaines parties sont disponnibles en format readme.
+
+### Python
+
+* session 0 épreuve 2
+* session 0 épreuve 3 sujet 1 partie 1
+* session 0 épreuve 3 sujet 1 partie 3
+* session 0 épreuve 3 sujet 1 partie 4
+* session 2022 épreuve 2
+* session 2022 épreuve 3 sujet 1 partie 1
+* session 2023 épreuve 2
+* session 2023 épreuve 3 sujet 1 partie 1
+* session 2023 épreuve 3 sujet 1 partie 3
 
 ### OCaml
 
-Liste des parties de sujets :
+* session 0 épreuve 1 partie 2
+* session 2022 épreuve 3 sujet 2
+* session 2023 épreuve 1 partie 2 (disponnible format readme)
+* session 2023 épreuve 3 sujet 3
 
-* session 2023 épreuve 1 partie 2
+### Système (C)
 
-### Logique et architecture des ordinateurs
+* session 2022 épreuve 1 partie 1
 
-Liste des parties de sujet :
+### Web
 
-* session 2023 épreuve 1 partie 3 (à venir)
+* session 0 épreuve 3 sujet 1 partie 2
+* session 2022 épreuve 3 sujet 1 partie 2
+* session 2023 épreuve 3 sujet 1 partie 5
+
+### BD
+
+* session 0 épreuve 1 partie 1
+* session 2022 épreuve 3 sujet 1 partie 3
+* session 2023 épreuve 1 partie 1
+* session 2023 épreuve 3 sujet 1 partie 4
+* session 0 épreuve 3 sujet 1 partie 5
+
+### Réseau
+
+* session 2022 épreuve 1 partie 4
+* session 2022 épreuve 3 sujet 1 partie 4
+* session 2023 épreuve 3 sujet 1 partie 2
+
+### Logique et Architecture des ordinateurs
+
+* session 0 épreuve 1 partie 3
+* session 2022 épreuve 1 partie 3
+* session 2023 épreuve 1 partie 3
+
+### Autre
+
+* session 0 épreuve 3 sujet 2
+* session 2022 épreuve 1 partie 2
 
 
 ## Le lab
