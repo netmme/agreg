@@ -3,61 +3,87 @@
 
 ## Les sujets
 
-Les sujets sont découpés en plusieurs parties, elles-mêmes découpées en plusieurs questions. Ce n'est pas pratique pour réviser comme j'en ai envie, alors voici un redécoupage des sujets en fonction des compétences nécessaires. Certaines parties sont disponnibles en format readme.
+Les sujets de l'agreg sont découpés en plusieurs parties, elles-mêmes découpées en plusieurs questions. Ce n'est pas pratique pour réviser comme j'en ai envie, alors voici un redécoupage des sujets en fonction des compétences nécessaires. Certaines parties sont disponnibles en format readme. J'ai également ajouté les sujets du CAPES à la liste car ils permettent de multiplier les exercices sur un sujet (les sujets de capes sont découpés en problèmes puis partie, mais pour rester homogène avec l'agreg j'ai quand même marqué partie à la place de problème (vous suivez ?). Lorsque une même partie porte sur plusieurs compétences, je précise à partir de quelle section la nouvelle compétence commence dans la partie).
 
 ### Python
 
-* session 0 épreuve 2
-* session 0 épreuve 3 sujet 1 partie 1
-* session 0 épreuve 3 sujet 1 partie 3
-* session 0 épreuve 3 sujet 1 partie 4
-* session 2022 épreuve 2
-* session 2022 épreuve 3 sujet 1 partie 1
-* session 2023 épreuve 2
-* session 2023 épreuve 3 sujet 1 partie 1
-* session 2023 épreuve 3 sujet 1 partie 3
+* capes session 2020 épreuve 1 partie 1
+* capes session 2020 épreuve 2 partie 2
+* capes session 2020 épreuve 2 partie 3
+* capes session 2021 épreuve 1 partie 1
+* capes session 2021 épreuve 1 partie 2 section 5
+* capes session 2022 épreuve 1 partie 1
+* capes session 2022 épreuve 1 partie 4
+* capes session 2022 épreuve 1 partie 5
+* capes session 2022 épreuve 2 partie 2
+* capes session 2023 épreuve 1 partie 1
+* capes session 2023 épreuve 1 partie 2
+* capes session 2023 épreuve 2 partie 1 section 2.5
+* agreg session 0 épreuve 2
+* agreg session 0 épreuve 3 sujet 1 partie 1
+* agreg session 0 épreuve 3 sujet 1 partie 3
+* agreg session 0 épreuve 3 sujet 1 partie 4
+* agreg session 2022 épreuve 2
+* agreg session 2022 épreuve 3 sujet 1 partie 1
+* agreg session 2023 épreuve 2
+* agreg session 2023 épreuve 3 sujet 1 partie 1
+* agreg session 2023 épreuve 3 sujet 1 partie 3
 
 ### OCaml
 
-* session 0 épreuve 1 partie 2
-* session 2022 épreuve 3 sujet 2
-* session 2023 épreuve 1 partie 2 (disponnible format readme)
-* session 2023 épreuve 3 sujet 3
+* agreg session 0 épreuve 1 partie 2
+* agreg session 2022 épreuve 3 sujet 2
+* agreg session 2023 épreuve 1 partie 2 (disponnible format readme)
+* agreg session 2023 épreuve 3 sujet 3
 
 ### Système (C)
 
-* session 2022 épreuve 1 partie 1
+* capes session 2023 épreuve 2 partie 1
+* agreg session 2022 épreuve 1 partie 1
 
 ### Web
 
-* session 0 épreuve 3 sujet 1 partie 2
-* session 2022 épreuve 3 sujet 1 partie 2
-* session 2023 épreuve 3 sujet 1 partie 5
+* capes session 2021 épreuve 2 partie 2
+* agreg session 0 épreuve 3 sujet 1 partie 2
+* agreg session 2022 épreuve 3 sujet 1 partie 2
+* agreg session 2023 épreuve 3 sujet 1 partie 5
 
 ### BD
 
-* session 0 épreuve 1 partie 1
-* session 2022 épreuve 3 sujet 1 partie 3
-* session 2023 épreuve 1 partie 1
-* session 2023 épreuve 3 sujet 1 partie 4
-* session 0 épreuve 3 sujet 1 partie 5
+* capes session 2020 épreuve 1 partie 2
+* capes session 2021 épreuve 1 partie 1
+* capes session 2022 épreuve 1 partie 2
+* capes session 2022 épreuve 2 partie 1
+* capes session 2023 épreuve 2 partie 2
+* agreg session 0 épreuve 1 partie 1
+* agreg session 2022 épreuve 3 sujet 1 partie 3
+* agreg session 2023 épreuve 1 partie 1
+* agreg session 2023 épreuve 3 sujet 1 partie 4
+* agreg session 0 épreuve 3 sujet 1 partie 5
 
 ### Réseau
 
-* session 2022 épreuve 1 partie 4
-* session 2022 épreuve 3 sujet 1 partie 4
-* session 2023 épreuve 3 sujet 1 partie 2
+* capes session 2021 épreuve 2 partie 1
+* agreg session 2022 épreuve 1 partie 4
+* agreg session 2022 épreuve 3 sujet 1 partie 4
+* agreg session 2023 épreuve 3 sujet 1 partie 2
 
 ### Logique et Architecture des ordinateurs
 
-* session 0 épreuve 1 partie 3
-* session 2022 épreuve 1 partie 3
-* session 2023 épreuve 1 partie 3
+* agreg session 0 épreuve 1 partie 3
+* agreg session 2022 épreuve 1 partie 3
+* agreg session 2023 épreuve 1 partie 3
 
 ### Autre
 
-* session 0 épreuve 3 sujet 2
-* session 2022 épreuve 1 partie 2
+* capes session 2020 épreuve 2 partie 1
+* capes session 2020 épreuve 2 partie 4
+* capes session 2020 épreuve 2 partie 5
+* capes session 2021 épreuve 2 partie 3
+* capes session 2022 épreuve 1 partie 3
+* capes session 2022 épreuve 1 partie 6
+* agreg session 0 épreuve 3 sujet 2
+* agreg session 2022 épreuve 1 partie 2
 
 
 ## Le lab
