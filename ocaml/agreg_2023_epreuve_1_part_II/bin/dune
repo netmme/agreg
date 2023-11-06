@@ -1,0 +1,4 @@
+(executable
+ (public_name agreg_2023_epreuve_1_part_II)
+ (name main)
+ (libraries agreg_2023_epreuve_1_part_II))
