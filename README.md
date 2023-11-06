@@ -33,7 +33,7 @@ Les sujets de l'agreg sont découpés en plusieurs parties, elles-mêmes découp
 
 * agreg session 0 épreuve 1 partie 2
 * agreg session 2022 épreuve 3 sujet 2
-* [agreg session 2023 épreuve 1 partie 2](2023_epreuve-1_part-II.md) (disponnible format readme)
+* [agreg session 2023 épreuve 1 partie 2](https://github.com/netmme/agreg/blob/main/ocaml/2023_epreuve-1_part-II.md) (disponnible format readme)
 * agreg session 2023 épreuve 3 sujet 3
 
 ### Système (C)
